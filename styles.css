@@ -54,11 +54,72 @@ body {
 
 .info {
   background-color: #FFFFFF;
+  padding: 50px;
+}
+
+.info-header {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.plants {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.barberry {
+  width: 350px;
+}
+
+.barberry-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.chili {
+  width: 350px;
+}
+
+.chili-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.pepper {
+  width: 350px;
+}
+
+.pepper-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.saffron {
+  width: 350px;
+}
+
+.saffron-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.text {
+  text-align: center;
 }
 
 .callout {
   background-color: #E5E7EB;
-  padding: 100px 350px 100px 350px;
+  padding: 100px 300px 100px 300px;
 }
 
 .callout p {
@@ -80,7 +141,7 @@ body {
   background-color: #3882F6;
   background-image: linear-gradient(#3882F6, #206de8);
   height: 150px;
-  width: 1200px;
+  width: 1070px;
   border-radius: 10px;
   display: flex;
   align-items: center;
