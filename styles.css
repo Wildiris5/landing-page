@@ -6,7 +6,6 @@ body {
 
 .header {
   background-color: #1F2937;
-  padding-top: 10px;
   color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -16,7 +15,20 @@ body {
 .header ul li {
   list-style: none;
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 20px;
+}
+
+.items-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.items-left {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: 20px;
 }
 
 .hero {
@@ -39,6 +51,7 @@ body {
 .hero-h2 {
   color: #E5E7EB;
   font-size: 18px;
+  line-height: 30px;
 }
 
 .hero button {
@@ -54,6 +67,29 @@ body {
 
 .hero button:hover {
   background-color: #206de8;
+}
+
+img {
+  --g: 4px;     /* the gap */
+  --b: 5px;    /* border thickness*/
+  --c: #669706; /* the color */
+  
+  
+  padding: calc(var(--g) + var(--b));
+  --_c: #0000 0 25%, var(--c) 0 50%;
+  --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
+  --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+  background:
+    var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
+    var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
+  background-size: 200% var(--b),var(--b) 200%;
+  cursor: pointer;
+  filter: grayscale(80%);
+  transition: .3s;
+}
+img:hover {
+  --_p: 75%;
+  filter: grayscale(0%);
 }
 
 .info {
@@ -119,6 +155,7 @@ body {
 
 .text {
   text-align: center;
+  padding-top: 10px;
 }
 
 .callout {
@@ -175,7 +212,7 @@ body {
 }
 
 .cta-right button:hover {
-  background-color: #206de8;
+  background-color: #5c8706;
 }
 
 .footer {
