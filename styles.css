@@ -160,7 +160,7 @@ img:hover {
 
 .callout {
   background-color: #E5E7EB;
-  padding: 100px 300px 100px 300px;
+  padding: 70px 170px 70px 170px;
 }
 
 .callout p {
@@ -216,9 +216,10 @@ img:hover {
 }
 
 .footer {
+  font-size: 12px;
   background-color: #1F2937;
   text-align: center;
-  color: #FFFFFF;
+  color: #cdcdcd;
   padding-top: 20px;
   padding-bottom: 20px;
 }
