@@ -39,7 +39,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 70px;
 }
 
 .hero-h1 {
@@ -106,48 +106,48 @@ img.service:hover {
   margin-bottom: 32px;
 }
 
-.plants {
+.info-content {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 25px;
+  gap: 5px;
 }
 
-.barberry {
-  width: 355px;
+.service1 {
+  width: 400px;
 }
 
-.barberry-icon {
+.service1-image {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
 }
 
-.chili {
-  width: 345px;
+.service2 {
+  width: 400px;
 }
 
-.chili-icon {
+.service2-image {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
 }
 
-.pepper {
-  width: 345px;
+.service3 {
+  width: 400px;
 }
 
-.pepper-icon {
+.service3-image {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
 }
 
-.saffron {
-  width: 340px;
+.service4 {
+  width: 400px;
 }
 
-.saffron-icon {
+.service4-image {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
@@ -160,11 +160,11 @@ img.service:hover {
 
 .callout {
   background-color: #E5E7EB;
-  padding: 70px 160px 70px 160px;
+  padding: 70px 170px 70px 170px;
 }
 
 .callout p {
-  font-size: 36px;
+  font-size: 35px;
   font-style: italic;
   font-weight: lighter;
   text-align: center;
@@ -183,7 +183,7 @@ img.service:hover {
   background-color: #3882F6;
   background-image: linear-gradient(#3882F6, #206de8);
   height: 150px;
-  width: 1080px;
+  width: 1200px;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -209,7 +209,7 @@ img.service:hover {
   border-radius: 10px;
   padding: 10px 20px 10px 20px;
   margin-top: 20px;
-  margin-left: 80px;
+  margin-left: 170px;
 }
 
 .cta-right button:hover {
